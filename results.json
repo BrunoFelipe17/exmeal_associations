@@ -1,15 +1,22 @@
 {
   "excluded": [],
-  "failed": [
+  "failed": [],
+  "invalid": [],
+  "passed": [
     {
-      "describe": "changeset/1",
-      "file": "/home/bruno/Documentos/projects/ignite_projects/exmeal_associations/test/exmeal/meal_test.exs",
-      "line": 11,
-      "module": "Elixir.Exmeal.MealTest",
-      "test": "test changeset/1 when all params are valid, returns a valid changeset"
+      "describe": "Update Meal",
+      "file": "/home/bruno/Documentos/projects/ignite_projects/exmeal_associations/test/exmeal/meals/update_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/bruno/Documentos/projects/ignite_projects/exmeal_associations/test/exmeal/meals/update_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when an invalid id is given, returns an error"
     }
   ],
-  "invalid": [],
-  "passed": [],
   "skiped": []
 }
